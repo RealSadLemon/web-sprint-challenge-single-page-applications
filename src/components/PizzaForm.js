@@ -33,6 +33,7 @@ const PizzaForm = props => {
             <label> Special Instructions: 
                 <input type='text' name='special' value={values.special} onChange={update} id='special-text'/>
             </label>
+            <button onClick={submit} id='order-button'>Submit</button>
         </form>
     )
 }
