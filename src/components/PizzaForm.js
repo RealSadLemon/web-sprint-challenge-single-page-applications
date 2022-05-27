@@ -18,16 +18,16 @@ const PizzaForm = props => {
             </label>
             <label> Toppings{`(?)`}:
                 <label> Pepperoni
-                    <input type='checkbox' name='pepperoni' checked={values.pepperoni} onChange={update}/>
+                    <input className="topping" type='checkbox' name='pepperoni' checked={values.pepperoni} onChange={update}/>
                 </label>
                 <label> Mushrooms
-                    <input type='checkbox' name='mush' checked={values.mush} onChange={update}/>
+                    <input className="topping" type='checkbox' name='mush' checked={values.mush} onChange={update}/>
                 </label>
                 <label> Fetta Cheese
-                    <input type='checkbox' name='fetta' checked={values.fetta} onChange={update}/>
+                    <input className="topping" type='checkbox' name='fetta' checked={values.fetta} onChange={update}/>
                 </label>
                 <label> Italian Sausage
-                    <input type='checkbox' name='italian' checked={values.italian} onChange={update}/>
+                    <input className="topping" type='checkbox' name='italian' checked={values.italian} onChange={update}/>
                 </label>
             </label>
             <label> Special Instructions: 
